@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BFEBA828BCB0DF00B67F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFEBA728BCB0DF00B67F9E /* AppDelegate.swift */; };
+		34BFEBAA28BCB0DF00B67F9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFEBA928BCB0DF00B67F9E /* SceneDelegate.swift */; };
+		34BFEBAC28BCB0DF00B67F9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFEBAB28BCB0DF00B67F9E /* ViewController.swift */; };
+		34BFEBAF28BCB0DF00B67F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BFEBAD28BCB0DF00B67F9E /* Main.storyboard */; };
+		34BFEBB128BCB0E100B67F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BFEBB028BCB0E100B67F9E /* Assets.xcassets */; };
+		34BFEBB428BCB0E100B67F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BFEBB228BCB0E100B67F9E /* LaunchScreen.storyboard */; };
+		34BFEBBF28BCB0E100B67F9E /* KlockappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFEBBE28BCB0E100B67F9E /* KlockappTests.swift */; };
+		34BFEBC928BCB0E100B67F9E /* KlockappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFEBC828BCB0E100B67F9E /* KlockappUITests.swift */; };
+		34BFEBCB28BCB0E100B67F9E /* KlockappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFEBCA28BCB0E100B67F9E /* KlockappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34BFEBBB28BCB0E100B67F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BFEB9C28BCB0DF00B67F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BFEBA328BCB0DF00B67F9E;
+			remoteInfo = Klockapp;
+		};
+		34BFEBC528BCB0E100B67F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BFEB9C28BCB0DF00B67F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BFEBA328BCB0DF00B67F9E;
+			remoteInfo = Klockapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34BFEBA428BCB0DF00B67F9E /* Klockapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klockapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BFEBA728BCB0DF00B67F9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34BFEBA928BCB0DF00B67F9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34BFEBAB28BCB0DF00B67F9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34BFEBAE28BCB0DF00B67F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34BFEBB028BCB0E100B67F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34BFEBB328BCB0E100B67F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34BFEBB528BCB0E100B67F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BFEBBA28BCB0E100B67F9E /* KlockappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlockappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BFEBBE28BCB0E100B67F9E /* KlockappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlockappTests.swift; sourceTree = "<group>"; };
+		34BFEBC428BCB0E100B67F9E /* KlockappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlockappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BFEBC828BCB0E100B67F9E /* KlockappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlockappUITests.swift; sourceTree = "<group>"; };
+		34BFEBCA28BCB0E100B67F9E /* KlockappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlockappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34BFEBA128BCB0DF00B67F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BFEBB728BCB0E100B67F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BFEBC128BCB0E100B67F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BFEB9B28BCB0DF00B67F9E = {
+			isa = PBXGroup;
+			children = (
+				34BFEBA628BCB0DF00B67F9E /* Klockapp */,
+				34BFEBBD28BCB0E100B67F9E /* KlockappTests */,
+				34BFEBC728BCB0E100B67F9E /* KlockappUITests */,
+				34BFEBA528BCB0DF00B67F9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34BFEBA528BCB0DF00B67F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34BFEBA428BCB0DF00B67F9E /* Klockapp.app */,
+				34BFEBBA28BCB0E100B67F9E /* KlockappTests.xctest */,
+				34BFEBC428BCB0E100B67F9E /* KlockappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34BFEBA628BCB0DF00B67F9E /* Klockapp */ = {
+			isa = PBXGroup;
+			children = (
+				34BFEBA728BCB0DF00B67F9E /* AppDelegate.swift */,
+				34BFEBA928BCB0DF00B67F9E /* SceneDelegate.swift */,
+				34BFEBAB28BCB0DF00B67F9E /* ViewController.swift */,
+				34BFEBAD28BCB0DF00B67F9E /* Main.storyboard */,
+				34BFEBB028BCB0E100B67F9E /* Assets.xcassets */,
+				34BFEBB228BCB0E100B67F9E /* LaunchScreen.storyboard */,
+				34BFEBB528BCB0E100B67F9E /* Info.plist */,
+			);
+			path = Klockapp;
+			sourceTree = "<group>";
+		};
+		34BFEBBD28BCB0E100B67F9E /* KlockappTests */ = {
+			isa = PBXGroup;
+			children = (
+				34BFEBBE28BCB0E100B67F9E /* KlockappTests.swift */,
+			);
+			path = KlockappTests;
+			sourceTree = "<group>";
+		};
+		34BFEBC728BCB0E100B67F9E /* KlockappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34BFEBC828BCB0E100B67F9E /* KlockappUITests.swift */,
+				34BFEBCA28BCB0E100B67F9E /* KlockappUITestsLaunchTests.swift */,
+			);
+			path = KlockappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34BFEBA328BCB0DF00B67F9E /* Klockapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BFEBCE28BCB0E100B67F9E /* Build configuration list for PBXNativeTarget "Klockapp" */;
+			buildPhases = (
+				34BFEBA028BCB0DF00B67F9E /* Sources */,
+				34BFEBA128BCB0DF00B67F9E /* Frameworks */,
+				34BFEBA228BCB0DF00B67F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Klockapp;
+			productName = Klockapp;
+			productReference = 34BFEBA428BCB0DF00B67F9E /* Klockapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34BFEBB928BCB0E100B67F9E /* KlockappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BFEBD128BCB0E100B67F9E /* Build configuration list for PBXNativeTarget "KlockappTests" */;
+			buildPhases = (
+				34BFEBB628BCB0E100B67F9E /* Sources */,
+				34BFEBB728BCB0E100B67F9E /* Frameworks */,
+				34BFEBB828BCB0E100B67F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BFEBBC28BCB0E100B67F9E /* PBXTargetDependency */,
+			);
+			name = KlockappTests;
+			productName = KlockappTests;
+			productReference = 34BFEBBA28BCB0E100B67F9E /* KlockappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34BFEBC328BCB0E100B67F9E /* KlockappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BFEBD428BCB0E100B67F9E /* Build configuration list for PBXNativeTarget "KlockappUITests" */;
+			buildPhases = (
+				34BFEBC028BCB0E100B67F9E /* Sources */,
+				34BFEBC128BCB0E100B67F9E /* Frameworks */,
+				34BFEBC228BCB0E100B67F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BFEBC628BCB0E100B67F9E /* PBXTargetDependency */,
+			);
+			name = KlockappUITests;
+			productName = KlockappUITests;
+			productReference = 34BFEBC428BCB0E100B67F9E /* KlockappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34BFEB9C28BCB0DF00B67F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					34BFEBA328BCB0DF00B67F9E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					34BFEBB928BCB0E100B67F9E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 34BFEBA328BCB0DF00B67F9E;
+					};
+					34BFEBC328BCB0E100B67F9E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 34BFEBA328BCB0DF00B67F9E;
+					};
+				};
+			};
+			buildConfigurationList = 34BFEB9F28BCB0DF00B67F9E /* Build configuration list for PBXProject "Klockapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34BFEB9B28BCB0DF00B67F9E;
+			productRefGroup = 34BFEBA528BCB0DF00B67F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34BFEBA328BCB0DF00B67F9E /* Klockapp */,
+				34BFEBB928BCB0E100B67F9E /* KlockappTests */,
+				34BFEBC328BCB0E100B67F9E /* KlockappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34BFEBA228BCB0DF00B67F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BFEBB428BCB0E100B67F9E /* LaunchScreen.storyboard in Resources */,
+				34BFEBB128BCB0E100B67F9E /* Assets.xcassets in Resources */,
+				34BFEBAF28BCB0DF00B67F9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BFEBB828BCB0E100B67F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BFEBC228BCB0E100B67F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34BFEBA028BCB0DF00B67F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BFEBAC28BCB0DF00B67F9E /* ViewController.swift in Sources */,
+				34BFEBA828BCB0DF00B67F9E /* AppDelegate.swift in Sources */,
+				34BFEBAA28BCB0DF00B67F9E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BFEBB628BCB0E100B67F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BFEBBF28BCB0E100B67F9E /* KlockappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BFEBC028BCB0E100B67F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BFEBCB28BCB0E100B67F9E /* KlockappUITestsLaunchTests.swift in Sources */,
+				34BFEBC928BCB0E100B67F9E /* KlockappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34BFEBBC28BCB0E100B67F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BFEBA328BCB0DF00B67F9E /* Klockapp */;
+			targetProxy = 34BFEBBB28BCB0E100B67F9E /* PBXContainerItemProxy */;
+		};
+		34BFEBC628BCB0E100B67F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BFEBA328BCB0DF00B67F9E /* Klockapp */;
+			targetProxy = 34BFEBC528BCB0E100B67F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34BFEBAD28BCB0DF00B67F9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BFEBAE28BCB0DF00B67F9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34BFEBB228BCB0E100B67F9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BFEBB328BCB0E100B67F9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34BFEBCC28BCB0E100B67F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34BFEBCD28BCB0E100B67F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34BFEBCF28BCB0E100B67F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Klockapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klockapp.Klockapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34BFEBD028BCB0E100B67F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Klockapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klockapp.Klockapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34BFEBD228BCB0E100B67F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klockapp.KlockappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Klockapp.app/Klockapp";
+			};
+			name = Debug;
+		};
+		34BFEBD328BCB0E100B67F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klockapp.KlockappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Klockapp.app/Klockapp";
+			};
+			name = Release;
+		};
+		34BFEBD528BCB0E100B67F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klockapp.KlockappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Klockapp;
+			};
+			name = Debug;
+		};
+		34BFEBD628BCB0E100B67F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS74BX356F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klockapp.KlockappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Klockapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34BFEB9F28BCB0DF00B67F9E /* Build configuration list for PBXProject "Klockapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BFEBCC28BCB0E100B67F9E /* Debug */,
+				34BFEBCD28BCB0E100B67F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BFEBCE28BCB0E100B67F9E /* Build configuration list for PBXNativeTarget "Klockapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BFEBCF28BCB0E100B67F9E /* Debug */,
+				34BFEBD028BCB0E100B67F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BFEBD128BCB0E100B67F9E /* Build configuration list for PBXNativeTarget "KlockappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BFEBD228BCB0E100B67F9E /* Debug */,
+				34BFEBD328BCB0E100B67F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BFEBD428BCB0E100B67F9E /* Build configuration list for PBXNativeTarget "KlockappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BFEBD528BCB0E100B67F9E /* Debug */,
+				34BFEBD628BCB0E100B67F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34BFEB9C28BCB0DF00B67F9E /* Project object */;
+}
